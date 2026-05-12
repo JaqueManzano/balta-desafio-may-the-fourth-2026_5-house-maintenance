@@ -12,10 +12,6 @@
   </ItemGroup>
   
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-  
-  <ItemGroup>
     <ProjectReference Include="..\HomeMaintenance.Ai\HomeMaintenance.Ai.csproj" />
     <ProjectReference Include="..\HomeMaintenance.Core\HomeMaintenance.Core.csproj" />
     <ProjectReference Include="..\HomeMaintenance.Infra\HomeMaintenance.Infra.csproj" />

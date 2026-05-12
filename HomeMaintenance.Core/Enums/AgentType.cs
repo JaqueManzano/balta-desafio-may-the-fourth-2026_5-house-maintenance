@@ -2,6 +2,7 @@
 {
     public enum AgentType
     {
-        MaintenanceTaskAgent = 0
+        HomeMaintenancePlannerAgent = 0,
+        CreateTasksAgent = 1
     }
 }

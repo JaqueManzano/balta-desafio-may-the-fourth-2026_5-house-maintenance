@@ -12,12 +12,11 @@
   </ItemGroup>
   
   <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Repositories\" />
+    <ProjectReference Include="..\HomeMaintenance.Core\HomeMaintenance.Core.csproj" />
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\HomeMaintenance.Core\HomeMaintenance.Core.csproj" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>
